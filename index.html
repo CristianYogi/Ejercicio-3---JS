@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 3 - JS</title>
+</head>
+<body>
+    <div id="formulario-sistema">   
+        <h2>Ingreso al Sistema</h2>
+        <form name ="datos_usuarios" action="#">
+            <label for="usuario" >Usuario:</label>   
+            <input type="text" id="usuario" name="usuario" value = "">
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" value = "">
+            <input id="boton-formulario" type="button" name="submit" value="Ingresar" onclick="validarUsuario(this.form);">
+            
+          </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

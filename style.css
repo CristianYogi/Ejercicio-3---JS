@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+h2{
+    text-align: center;
+}
+
+#boton-formulario{
+    margin-top: 30px;
+    width: 100px;
+}
